@@ -279,6 +279,7 @@ def about():
 # DON'T put your email and password here directly! The code will be visible when you upload to Github.
 # Use environment variables instead (Day 35)
 
+
 MAIL_ADDRESS = os.environ.get("EMAIL_KEY")
 MAIL_APP_PW = os.environ.get("PASSWORD_KEY")
 
